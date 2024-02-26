@@ -28,8 +28,6 @@ for itr in range(N):
 dict[fist_name] = temp_s
 name = str(input())
 name1 = name
-#print(dict)
-#print(name)
 
 def num_child(dict,name,name1):
     count = 0
