@@ -37,10 +37,8 @@ def num_child(dict,name,name1):
         for item in dict[name]:
             new_name = item
             if item not in dict.keys():
-                #print(item)
                 count += 1
             else:
-                #print(item)
                 count += 1
                 count += num_child(dict,new_name,name1)
         return count
